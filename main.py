@@ -4,7 +4,7 @@ from langchain.document_loaders import ArxivLoader, PyPDFDirectoryLoader
 from langchain.document_loaders.base import BaseLoader
 from langchain.indexes.vectorstore import VectorstoreIndexCreator
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 LOCAL_FILES = True
 
